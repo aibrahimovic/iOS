@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		707E079719A73C27000BD637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E079619A73C27000BD637 /* Foundation.framework */; };
+		707E079919A73C27000BD637 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E079819A73C27000BD637 /* CoreGraphics.framework */; };
+		707E079B19A73C27000BD637 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E079A19A73C27000BD637 /* UIKit.framework */; };
+		707E07A119A73C27000BD637 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 707E079F19A73C27000BD637 /* InfoPlist.strings */; };
+		707E07A319A73C27000BD637 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E07A219A73C27000BD637 /* main.m */; };
+		707E07A719A73C27000BD637 /* CetiriAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E07A619A73C27000BD637 /* CetiriAppDelegate.m */; };
+		707E07AA19A73C27000BD637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707E07A819A73C27000BD637 /* Main.storyboard */; };
+		707E07AD19A73C27000BD637 /* CetiriFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E07AC19A73C27000BD637 /* CetiriFirstViewController.m */; };
+		707E07B019A73C27000BD637 /* CetiriSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E07AF19A73C27000BD637 /* CetiriSecondViewController.m */; };
+		707E07B219A73C27000BD637 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707E07B119A73C27000BD637 /* Images.xcassets */; };
+		707E07B919A73C27000BD637 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E07B819A73C27000BD637 /* XCTest.framework */; };
+		707E07BA19A73C27000BD637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E079619A73C27000BD637 /* Foundation.framework */; };
+		707E07BB19A73C27000BD637 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E079A19A73C27000BD637 /* UIKit.framework */; };
+		707E07C319A73C27000BD637 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 707E07C119A73C27000BD637 /* InfoPlist.strings */; };
+		707E07C519A73C27000BD637 /* homeDoctorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E07C419A73C27000BD637 /* homeDoctorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		707E07BC19A73C27000BD637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707E078B19A73C27000BD637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707E079219A73C27000BD637;
+			remoteInfo = homeDoctor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		707E079319A73C27000BD637 /* homeDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		707E079619A73C27000BD637 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		707E079819A73C27000BD637 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		707E079A19A73C27000BD637 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		707E079E19A73C27000BD637 /* homeDoctor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homeDoctor-Info.plist"; sourceTree = "<group>"; };
+		707E07A019A73C27000BD637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		707E07A219A73C27000BD637 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		707E07A419A73C27000BD637 /* homeDoctor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "homeDoctor-Prefix.pch"; sourceTree = "<group>"; };
+		707E07A519A73C27000BD637 /* CetiriAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CetiriAppDelegate.h; sourceTree = "<group>"; };
+		707E07A619A73C27000BD637 /* CetiriAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CetiriAppDelegate.m; sourceTree = "<group>"; };
+		707E07A919A73C27000BD637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		707E07AB19A73C27000BD637 /* CetiriFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CetiriFirstViewController.h; sourceTree = "<group>"; };
+		707E07AC19A73C27000BD637 /* CetiriFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CetiriFirstViewController.m; sourceTree = "<group>"; };
+		707E07AE19A73C27000BD637 /* CetiriSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CetiriSecondViewController.h; sourceTree = "<group>"; };
+		707E07AF19A73C27000BD637 /* CetiriSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CetiriSecondViewController.m; sourceTree = "<group>"; };
+		707E07B119A73C27000BD637 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		707E07B719A73C27000BD637 /* homeDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707E07B819A73C27000BD637 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		707E07C019A73C27000BD637 /* homeDoctorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homeDoctorTests-Info.plist"; sourceTree = "<group>"; };
+		707E07C219A73C27000BD637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		707E07C419A73C27000BD637 /* homeDoctorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeDoctorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		707E079019A73C27000BD637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707E079919A73C27000BD637 /* CoreGraphics.framework in Frameworks */,
+				707E079B19A73C27000BD637 /* UIKit.framework in Frameworks */,
+				707E079719A73C27000BD637 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707E07B419A73C27000BD637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707E07B919A73C27000BD637 /* XCTest.framework in Frameworks */,
+				707E07BB19A73C27000BD637 /* UIKit.framework in Frameworks */,
+				707E07BA19A73C27000BD637 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		707E078A19A73C27000BD637 = {
+			isa = PBXGroup;
+			children = (
+				707E079C19A73C27000BD637 /* homeDoctor */,
+				707E07BE19A73C27000BD637 /* homeDoctorTests */,
+				707E079519A73C27000BD637 /* Frameworks */,
+				707E079419A73C27000BD637 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		707E079419A73C27000BD637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				707E079319A73C27000BD637 /* homeDoctor.app */,
+				707E07B719A73C27000BD637 /* homeDoctorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		707E079519A73C27000BD637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				707E079619A73C27000BD637 /* Foundation.framework */,
+				707E079819A73C27000BD637 /* CoreGraphics.framework */,
+				707E079A19A73C27000BD637 /* UIKit.framework */,
+				707E07B819A73C27000BD637 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		707E079C19A73C27000BD637 /* homeDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				707E07A519A73C27000BD637 /* CetiriAppDelegate.h */,
+				707E07A619A73C27000BD637 /* CetiriAppDelegate.m */,
+				707E07A819A73C27000BD637 /* Main.storyboard */,
+				707E07AB19A73C27000BD637 /* CetiriFirstViewController.h */,
+				707E07AC19A73C27000BD637 /* CetiriFirstViewController.m */,
+				707E07AE19A73C27000BD637 /* CetiriSecondViewController.h */,
+				707E07AF19A73C27000BD637 /* CetiriSecondViewController.m */,
+				707E07B119A73C27000BD637 /* Images.xcassets */,
+				707E079D19A73C27000BD637 /* Supporting Files */,
+			);
+			path = homeDoctor;
+			sourceTree = "<group>";
+		};
+		707E079D19A73C27000BD637 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				707E079E19A73C27000BD637 /* homeDoctor-Info.plist */,
+				707E079F19A73C27000BD637 /* InfoPlist.strings */,
+				707E07A219A73C27000BD637 /* main.m */,
+				707E07A419A73C27000BD637 /* homeDoctor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		707E07BE19A73C27000BD637 /* homeDoctorTests */ = {
+			isa = PBXGroup;
+			children = (
+				707E07C419A73C27000BD637 /* homeDoctorTests.m */,
+				707E07BF19A73C27000BD637 /* Supporting Files */,
+			);
+			path = homeDoctorTests;
+			sourceTree = "<group>";
+		};
+		707E07BF19A73C27000BD637 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				707E07C019A73C27000BD637 /* homeDoctorTests-Info.plist */,
+				707E07C119A73C27000BD637 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		707E079219A73C27000BD637 /* homeDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707E07C819A73C27000BD637 /* Build configuration list for PBXNativeTarget "homeDoctor" */;
+			buildPhases = (
+				707E078F19A73C27000BD637 /* Sources */,
+				707E079019A73C27000BD637 /* Frameworks */,
+				707E079119A73C27000BD637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = homeDoctor;
+			productName = homeDoctor;
+			productReference = 707E079319A73C27000BD637 /* homeDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		707E07B619A73C27000BD637 /* homeDoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707E07CB19A73C27000BD637 /* Build configuration list for PBXNativeTarget "homeDoctorTests" */;
+			buildPhases = (
+				707E07B319A73C27000BD637 /* Sources */,
+				707E07B419A73C27000BD637 /* Frameworks */,
+				707E07B519A73C27000BD637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707E07BD19A73C27000BD637 /* PBXTargetDependency */,
+			);
+			name = homeDoctorTests;
+			productName = homeDoctorTests;
+			productReference = 707E07B719A73C27000BD637 /* homeDoctorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		707E078B19A73C27000BD637 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Cetiri;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Azra;
+				TargetAttributes = {
+					707E07B619A73C27000BD637 = {
+						TestTargetID = 707E079219A73C27000BD637;
+					};
+				};
+			};
+			buildConfigurationList = 707E078E19A73C27000BD637 /* Build configuration list for PBXProject "homeDoctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 707E078A19A73C27000BD637;
+			productRefGroup = 707E079419A73C27000BD637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				707E079219A73C27000BD637 /* homeDoctor */,
+				707E07B619A73C27000BD637 /* homeDoctorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		707E079119A73C27000BD637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707E07B219A73C27000BD637 /* Images.xcassets in Resources */,
+				707E07A119A73C27000BD637 /* InfoPlist.strings in Resources */,
+				707E07AA19A73C27000BD637 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707E07B519A73C27000BD637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707E07C319A73C27000BD637 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		707E078F19A73C27000BD637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707E07A719A73C27000BD637 /* CetiriAppDelegate.m in Sources */,
+				707E07AD19A73C27000BD637 /* CetiriFirstViewController.m in Sources */,
+				707E07B019A73C27000BD637 /* CetiriSecondViewController.m in Sources */,
+				707E07A319A73C27000BD637 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707E07B319A73C27000BD637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707E07C519A73C27000BD637 /* homeDoctorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		707E07BD19A73C27000BD637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707E079219A73C27000BD637 /* homeDoctor */;
+			targetProxy = 707E07BC19A73C27000BD637 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		707E079F19A73C27000BD637 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707E07A019A73C27000BD637 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		707E07A819A73C27000BD637 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707E07A919A73C27000BD637 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		707E07C119A73C27000BD637 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707E07C219A73C27000BD637 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		707E07C619A73C27000BD637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		707E07C719A73C27000BD637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		707E07C919A73C27000BD637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "homeDoctor/homeDoctor-Prefix.pch";
+				INFOPLIST_FILE = "homeDoctor/homeDoctor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		707E07CA19A73C27000BD637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "homeDoctor/homeDoctor-Prefix.pch";
+				INFOPLIST_FILE = "homeDoctor/homeDoctor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		707E07CC19A73C27000BD637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/homeDoctor.app/homeDoctor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "homeDoctor/homeDoctor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "homeDoctorTests/homeDoctorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		707E07CD19A73C27000BD637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/homeDoctor.app/homeDoctor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "homeDoctor/homeDoctor-Prefix.pch";
+				INFOPLIST_FILE = "homeDoctorTests/homeDoctorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		707E078E19A73C27000BD637 /* Build configuration list for PBXProject "homeDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707E07C619A73C27000BD637 /* Debug */,
+				707E07C719A73C27000BD637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707E07C819A73C27000BD637 /* Build configuration list for PBXNativeTarget "homeDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707E07C919A73C27000BD637 /* Debug */,
+				707E07CA19A73C27000BD637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		707E07CB19A73C27000BD637 /* Build configuration list for PBXNativeTarget "homeDoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707E07CC19A73C27000BD637 /* Debug */,
+				707E07CD19A73C27000BD637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 707E078B19A73C27000BD637 /* Project object */;
+}
