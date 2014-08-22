@@ -23,6 +23,7 @@
 		707E07C319A73C27000BD637 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 707E07C119A73C27000BD637 /* InfoPlist.strings */; };
 		707E07C519A73C27000BD637 /* homeDoctorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E07C419A73C27000BD637 /* homeDoctorTests.m */; };
 		707E07D219A73DA3000BD637 /* Simptom.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E07D119A73DA3000BD637 /* Simptom.m */; };
+		707E07D519A74E36000BD637 /* Bolest.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E07D419A74E36000BD637 /* Bolest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		707E07C419A73C27000BD637 /* homeDoctorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeDoctorTests.m; sourceTree = "<group>"; };
 		707E07D019A73DA3000BD637 /* Simptom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simptom.h; sourceTree = "<group>"; };
 		707E07D119A73DA3000BD637 /* Simptom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Simptom.m; sourceTree = "<group>"; };
+		707E07D319A74E36000BD637 /* Bolest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bolest.h; sourceTree = "<group>"; };
+		707E07D419A74E36000BD637 /* Bolest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bolest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 			children = (
 				707E07D019A73DA3000BD637 /* Simptom.h */,
 				707E07D119A73DA3000BD637 /* Simptom.m */,
+				707E07D319A74E36000BD637 /* Bolest.h */,
+				707E07D419A74E36000BD637 /* Bolest.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				707E07AD19A73C27000BD637 /* CetiriFirstViewController.m in Sources */,
 				707E07D219A73DA3000BD637 /* Simptom.m in Sources */,
 				707E07B019A73C27000BD637 /* CetiriSecondViewController.m in Sources */,
+				707E07D519A74E36000BD637 /* Bolest.m in Sources */,
 				707E07A319A73C27000BD637 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "homeDoctor/homeDoctor-Prefix.pch";
 				INFOPLIST_FILE = "homeDoctor/homeDoctor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -421,6 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "homeDoctor/homeDoctor-Prefix.pch";
 				INFOPLIST_FILE = "homeDoctor/homeDoctor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
