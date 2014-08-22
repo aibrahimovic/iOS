@@ -22,6 +22,7 @@
 		707E07BB19A73C27000BD637 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E079A19A73C27000BD637 /* UIKit.framework */; };
 		707E07C319A73C27000BD637 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 707E07C119A73C27000BD637 /* InfoPlist.strings */; };
 		707E07C519A73C27000BD637 /* homeDoctorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E07C419A73C27000BD637 /* homeDoctorTests.m */; };
+		707E07D219A73DA3000BD637 /* Simptom.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E07D119A73DA3000BD637 /* Simptom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		707E07C019A73C27000BD637 /* homeDoctorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homeDoctorTests-Info.plist"; sourceTree = "<group>"; };
 		707E07C219A73C27000BD637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		707E07C419A73C27000BD637 /* homeDoctorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeDoctorTests.m; sourceTree = "<group>"; };
+		707E07D019A73DA3000BD637 /* Simptom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simptom.h; sourceTree = "<group>"; };
+		707E07D119A73DA3000BD637 /* Simptom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Simptom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +88,7 @@
 		707E078A19A73C27000BD637 = {
 			isa = PBXGroup;
 			children = (
-				707E079C19A73C27000BD637 /* homeDoctor */,
+				707E07CE19A73D48000BD637 /* iOS app */,
 				707E07BE19A73C27000BD637 /* homeDoctorTests */,
 				707E079519A73C27000BD637 /* Frameworks */,
 				707E079419A73C27000BD637 /* Products */,
@@ -115,6 +118,7 @@
 		707E079C19A73C27000BD637 /* homeDoctor */ = {
 			isa = PBXGroup;
 			children = (
+				707E07CF19A73D68000BD637 /* Classes */,
 				707E07A519A73C27000BD637 /* CetiriAppDelegate.h */,
 				707E07A619A73C27000BD637 /* CetiriAppDelegate.m */,
 				707E07A819A73C27000BD637 /* Main.storyboard */,
@@ -155,6 +159,23 @@
 				707E07C119A73C27000BD637 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		707E07CE19A73D48000BD637 /* iOS app */ = {
+			isa = PBXGroup;
+			children = (
+				707E079C19A73C27000BD637 /* homeDoctor */,
+			);
+			name = "iOS app";
+			sourceTree = "<group>";
+		};
+		707E07CF19A73D68000BD637 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				707E07D019A73DA3000BD637 /* Simptom.h */,
+				707E07D119A73DA3000BD637 /* Simptom.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +278,7 @@
 			files = (
 				707E07A719A73C27000BD637 /* CetiriAppDelegate.m in Sources */,
 				707E07AD19A73C27000BD637 /* CetiriFirstViewController.m in Sources */,
+				707E07D219A73DA3000BD637 /* Simptom.m in Sources */,
 				707E07B019A73C27000BD637 /* CetiriSecondViewController.m in Sources */,
 				707E07A319A73C27000BD637 /* main.m in Sources */,
 			);
