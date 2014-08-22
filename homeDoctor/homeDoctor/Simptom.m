@@ -22,17 +22,18 @@
     return self.id;
 }
 
+/*
 -(void)setId:(int)id1 {
     self.id = id1;
-}
+}*/
 
 -(NSString*)getOpis {
     return self.opis;
 }
-
+/*
 -(void)setOpis:(NSString *)opis1 {
     self.opis = opis1;
-}
+}*/
 
 
 @end

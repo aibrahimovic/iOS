@@ -23,18 +23,18 @@
 -(int)getId {
     return self.id;
 }
-
+/*
 -(void)setId:(int)id1 {
     self.id = id1;
 }
-
+*/
 -(NSString*)getNaziv {
     return self.naziv;
 }
-
+/*
 -(void)setNaziv:(NSString *)naziv1 {
     self.naziv = naziv1;
-}
+}*/
 
 -(int)simptomsNumber {
     int sNum;
