@@ -19,7 +19,7 @@
     self.structure = structure;
     self.uses = uses;
     self.sideEffects = sideEffects;
-    
+    // int a jednako dva
     return self;
 }
 
