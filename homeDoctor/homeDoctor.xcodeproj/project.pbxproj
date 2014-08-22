@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EE1766E19A7A9F9005F7E48 /* Medicine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE1766D19A7A9F9005F7E48 /* Medicine.m */; };
 		707E079719A73C27000BD637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E079619A73C27000BD637 /* Foundation.framework */; };
 		707E079919A73C27000BD637 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E079819A73C27000BD637 /* CoreGraphics.framework */; };
 		707E079B19A73C27000BD637 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E079A19A73C27000BD637 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EE1766C19A7A9F9005F7E48 /* Medicine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medicine.h; sourceTree = "<group>"; };
+		0EE1766D19A7A9F9005F7E48 /* Medicine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medicine.m; sourceTree = "<group>"; };
 		707E079319A73C27000BD637 /* homeDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		707E079619A73C27000BD637 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		707E079819A73C27000BD637 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -179,6 +182,8 @@
 				707E07D119A73DA3000BD637 /* Simptom.m */,
 				707E07D319A74E36000BD637 /* Bolest.h */,
 				707E07D419A74E36000BD637 /* Bolest.m */,
+				0EE1766C19A7A9F9005F7E48 /* Medicine.h */,
+				0EE1766D19A7A9F9005F7E48 /* Medicine.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 				707E07D219A73DA3000BD637 /* Simptom.m in Sources */,
 				707E07B019A73C27000BD637 /* CetiriSecondViewController.m in Sources */,
 				707E07D519A74E36000BD637 /* Bolest.m in Sources */,
+				0EE1766E19A7A9F9005F7E48 /* Medicine.m in Sources */,
 				707E07A319A73C27000BD637 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,6 +499,7 @@
 				707E07CA19A73C27000BD637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		707E07CB19A73C27000BD637 /* Build configuration list for PBXNativeTarget "homeDoctorTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +508,7 @@
 				707E07CD19A73C27000BD637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
