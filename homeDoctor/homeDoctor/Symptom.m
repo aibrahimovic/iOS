@@ -31,7 +31,7 @@
     return self.description;
 }
 
- -(void)setDescription:(NSString *)description {
- self.description = description;
+ -(void)setDescription:(NSString *)description1 {
+ self.description = description1;
  }
 @end
