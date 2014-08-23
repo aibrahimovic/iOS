@@ -338,6 +338,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="t_medicineName" destination="SrK-S3-WPO" id="rTu-Az-OqP"/>
+                        <outlet property="t_sideEffects" destination="sVI-Bm-xIO" id="LRi-wB-cWh"/>
+                        <outlet property="t_structure" destination="4W4-tG-IZ8" id="GU2-G0-Y27"/>
+                        <outlet property="t_uses" destination="Ega-gz-5XL" id="fW0-Dz-GfS"/>
+                        <outlet property="tl_diseases2" destination="fhB-jN-AWC" id="YOS-tB-jQe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zkd-W2-Cu3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -457,8 +464,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="cCE-9x-jOe"/>
-        <segue reference="c3u-LJ-dnV"/>
+        <segue reference="SUk-Ux-ee1"/>
+        <segue reference="35q-5L-U0B"/>
         <segue reference="7lx-K0-H5G"/>
     </inferredMetricsTieBreakers>
 </document>
