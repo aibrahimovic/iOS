@@ -58,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="653" y="-138"/>
         </scene>
-        <!--View Controller - Item-->
+        <!--Symptom View Controller - Item-->
         <scene sceneID="yYk-ZN-j28">
             <objects>
-                <viewController id="5Yc-28-PN1" sceneMemberID="viewController">
+                <viewController id="5Yc-28-PN1" customClass="SymptomViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WBi-2w-0dd"/>
                         <viewControllerLayoutGuide type="bottom" id="5K7-93-6f1"/>
@@ -132,6 +132,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="ny3-TR-7kO"/>
+                    <connections>
+                        <outlet property="t_symptom1" destination="rKX-Fk-iaR" id="Bf4-f1-Kwc"/>
+                        <outlet property="tl_dieasese1" destination="9v2-Xj-TeH" id="FtO-gp-CzA"/>
+                        <outlet property="tl_medicine1" destination="yVW-tz-DBn" id="iht-Bl-Ils"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qb2-3I-hpz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -334,10 +339,10 @@
             </objects>
             <point key="canvasLocation" x="1267" y="524"/>
         </scene>
-        <!--View Controller - Item-->
+        <!--Disease View Controller Second - Item-->
         <scene sceneID="zFY-dD-r0I">
             <objects>
-                <viewController id="vE8-B0-hdW" sceneMemberID="viewController">
+                <viewController id="vE8-B0-hdW" customClass="DiseaseViewControllerSecond" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vm2-eW-HXI"/>
                         <viewControllerLayoutGuide type="bottom" id="Gom-Qi-nWu"/>
@@ -413,6 +418,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="YYJ-TH-6pB"/>
+                    <connections>
+                        <outlet property="t_disease3" destination="7vi-pg-h3L" id="axW-pX-OhM"/>
+                        <outlet property="tl_medicines3" destination="zOf-Iw-61p" id="jDZ-It-ab5"/>
+                        <outlet property="tl_symptoms3" destination="hzh-7b-6GD" id="6qy-Nk-8F6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7EU-gQ-RfY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

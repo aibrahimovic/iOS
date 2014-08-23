@@ -10,6 +10,8 @@
 		0EA5E25C19A8A2970072416B /* Symptom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA5E25B19A8A2970072416B /* Symptom.m */; };
 		0EA5E25F19A8A3AE0072416B /* Disease.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA5E25E19A8A3AE0072416B /* Disease.m */; };
 		0EE1766E19A7A9F9005F7E48 /* Medicine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE1766D19A7A9F9005F7E48 /* Medicine.m */; };
+		7039BE2F19A8B98E00506BEF /* SymptomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039BE2E19A8B98E00506BEF /* SymptomViewController.m */; };
+		7039BE3219A8C1E800506BEF /* DiseaseViewControllerSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039BE3119A8C1E800506BEF /* DiseaseViewControllerSecond.m */; };
 		707E079719A73C27000BD637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E079619A73C27000BD637 /* Foundation.framework */; };
 		707E079919A73C27000BD637 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E079819A73C27000BD637 /* CoreGraphics.framework */; };
 		707E079B19A73C27000BD637 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E079A19A73C27000BD637 /* UIKit.framework */; };
@@ -44,6 +46,10 @@
 		0EA5E25E19A8A3AE0072416B /* Disease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Disease.m; sourceTree = "<group>"; };
 		0EE1766C19A7A9F9005F7E48 /* Medicine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medicine.h; sourceTree = "<group>"; };
 		0EE1766D19A7A9F9005F7E48 /* Medicine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medicine.m; sourceTree = "<group>"; };
+		7039BE2D19A8B98E00506BEF /* SymptomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymptomViewController.h; sourceTree = "<group>"; };
+		7039BE2E19A8B98E00506BEF /* SymptomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymptomViewController.m; sourceTree = "<group>"; };
+		7039BE3019A8C1E800506BEF /* DiseaseViewControllerSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiseaseViewControllerSecond.h; sourceTree = "<group>"; };
+		7039BE3119A8C1E800506BEF /* DiseaseViewControllerSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiseaseViewControllerSecond.m; sourceTree = "<group>"; };
 		707E079319A73C27000BD637 /* homeDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		707E079619A73C27000BD637 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		707E079819A73C27000BD637 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,6 +138,10 @@
 				707E07AC19A73C27000BD637 /* CetiriFirstViewController.m */,
 				707E07AE19A73C27000BD637 /* CetiriSecondViewController.h */,
 				707E07AF19A73C27000BD637 /* CetiriSecondViewController.m */,
+				7039BE2D19A8B98E00506BEF /* SymptomViewController.h */,
+				7039BE3019A8C1E800506BEF /* DiseaseViewControllerSecond.h */,
+				7039BE3119A8C1E800506BEF /* DiseaseViewControllerSecond.m */,
+				7039BE2E19A8B98E00506BEF /* SymptomViewController.m */,
 				707E07B119A73C27000BD637 /* Images.xcassets */,
 				707E079D19A73C27000BD637 /* Supporting Files */,
 			);
@@ -288,7 +298,9 @@
 			files = (
 				707E07A719A73C27000BD637 /* CetiriAppDelegate.m in Sources */,
 				707E07AD19A73C27000BD637 /* CetiriFirstViewController.m in Sources */,
+				7039BE2F19A8B98E00506BEF /* SymptomViewController.m in Sources */,
 				0EA5E25F19A8A3AE0072416B /* Disease.m in Sources */,
+				7039BE3219A8C1E800506BEF /* DiseaseViewControllerSecond.m in Sources */,
 				707E07B019A73C27000BD637 /* CetiriSecondViewController.m in Sources */,
 				0EA5E25C19A8A2970072416B /* Symptom.m in Sources */,
 				0EE1766E19A7A9F9005F7E48 /* Medicine.m in Sources */,
