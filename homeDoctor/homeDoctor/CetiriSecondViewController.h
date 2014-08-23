@@ -10,4 +10,6 @@
 
 @interface CetiriSecondViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *t_medicine;
+
 @end

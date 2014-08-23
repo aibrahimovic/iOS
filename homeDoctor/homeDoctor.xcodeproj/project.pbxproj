@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E9B555319A8BA1200C70E71 /* DiseaseViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B555219A8BA1200C70E71 /* DiseaseViewContoller.m */; };
+		0E9B555619A8C1C200C70E71 /* MedicineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B555519A8C1C200C70E71 /* MedicineViewController.m */; };
 		0EA5E25C19A8A2970072416B /* Symptom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA5E25B19A8A2970072416B /* Symptom.m */; };
 		0EA5E25F19A8A3AE0072416B /* Disease.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA5E25E19A8A3AE0072416B /* Disease.m */; };
 		0EE1766E19A7A9F9005F7E48 /* Medicine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE1766D19A7A9F9005F7E48 /* Medicine.m */; };
@@ -40,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E9B555119A8BA1200C70E71 /* DiseaseViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiseaseViewContoller.h; sourceTree = "<group>"; };
+		0E9B555219A8BA1200C70E71 /* DiseaseViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiseaseViewContoller.m; sourceTree = "<group>"; };
+		0E9B555419A8C1C200C70E71 /* MedicineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineViewController.h; sourceTree = "<group>"; };
+		0E9B555519A8C1C200C70E71 /* MedicineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineViewController.m; sourceTree = "<group>"; };
 		0EA5E25A19A8A2970072416B /* Symptom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symptom.h; sourceTree = "<group>"; };
 		0EA5E25B19A8A2970072416B /* Symptom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Symptom.m; sourceTree = "<group>"; };
 		0EA5E25D19A8A3AE0072416B /* Disease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Disease.h; sourceTree = "<group>"; };
@@ -302,7 +308,9 @@
 				0EA5E25F19A8A3AE0072416B /* Disease.m in Sources */,
 				7039BE3219A8C1E800506BEF /* DiseaseViewControllerSecond.m in Sources */,
 				707E07B019A73C27000BD637 /* CetiriSecondViewController.m in Sources */,
+				0E9B555319A8BA1200C70E71 /* DiseaseViewContoller.m in Sources */,
 				0EA5E25C19A8A2970072416B /* Symptom.m in Sources */,
+				0E9B555619A8C1C200C70E71 /* MedicineViewController.m in Sources */,
 				0EE1766E19A7A9F9005F7E48 /* Medicine.m in Sources */,
 				707E07A319A73C27000BD637 /* main.m in Sources */,
 			);
