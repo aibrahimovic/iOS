@@ -13,6 +13,4 @@
 @property (weak, nonatomic) IBOutlet UITextField *t_symptom1;
 @property (weak, nonatomic) IBOutlet UITextView *tl_medicine1;
 @property (weak, nonatomic) IBOutlet UITextView *tl_dieasese1;
-
-
 @end
