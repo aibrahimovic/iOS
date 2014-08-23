@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
     <dependencies>
         <deployment defaultVersion="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -53,6 +53,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Simptomi" image="first" id="u1e-5L-l1D"/>
+                    <connections>
+                        <outlet property="t_symptom" destination="Tlh-IZ-DAN" id="NEJ-Ie-pFG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
             </objects>
@@ -137,10 +140,10 @@
             </objects>
             <point key="canvasLocation" x="1267" y="-143"/>
         </scene>
-        <!--View Controller - Bolest-->
+        <!--Disease View Contoller - Bolest-->
         <scene sceneID="Lfn-gg-Hth">
             <objects>
-                <viewController id="69F-Eb-DfM" sceneMemberID="viewController">
+                <viewController id="69F-Eb-DfM" customClass="DiseaseViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MPV-PV-YhH"/>
                         <viewControllerLayoutGuide type="bottom" id="2Yi-Qb-SQL"/>
@@ -181,6 +184,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Bolest" image="first" id="HMU-qI-xxp"/>
+                    <connections>
+                        <outlet property="t_disease" destination="8Ml-cC-iO5" id="wEe-WQ-vIs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="whC-Ke-Mvf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -235,15 +241,18 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Lijekovi" image="first" id="Z7h-1E-pvt"/>
+                    <connections>
+                        <outlet property="t_medicine" destination="cCj-Rm-A1e" id="S5O-Mx-D7h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="653" y="498"/>
         </scene>
-        <!--View Controller-->
+        <!--Medicine View Controller-->
         <scene sceneID="ci3-hv-HIH">
             <objects>
-                <viewController id="Jxr-kL-j2t" sceneMemberID="viewController">
+                <viewController id="Jxr-kL-j2t" customClass="MedicineViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pgy-VL-KPA"/>
                         <viewControllerLayoutGuide type="bottom" id="cg0-ek-5CW"/>

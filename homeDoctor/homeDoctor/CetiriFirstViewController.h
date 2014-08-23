@@ -10,4 +10,7 @@
 
 @interface CetiriFirstViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *t_symptom;
+
+
 @end
