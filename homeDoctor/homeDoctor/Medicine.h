@@ -10,13 +10,13 @@
 
 @interface Medicine : NSObject
 
-@property int eid;
+@property int idM;
 @property NSString *name;
 @property NSString *structure;
 @property NSString *uses;
 @property NSString *sideEffects;
 
-- (id)initMedicineId:(int)eid name:(NSString *)name structure:(NSString *)structure uses:(NSString *)uses sideEffects:(NSString *)sideEffects;
+- (id)initMedicineId:(int)idM name:(NSString *)name structure:(NSString *)structure uses:(NSString *)uses sideEffects:(NSString *)sideEffects;
 
 -(int)getId;
 -(NSString*)getName;
