@@ -10,21 +10,21 @@
 
 @implementation Symptom
 
--(id)initSymptomId:(int)_id Description:(NSString*)desc {
+-(id)initSymptomId:(int)idS Description:(NSString*)desc {
     
     self = [super init];
-    self._id = _id;
+    self.idS = idS;
     self.description = desc;
     return self;
 }
 
 -(int)getId {
-    return self._id;
+    return self.idS;
 }
 
 
  -(void)setId:(int)id1 {
- self.id = id1;
+ self.idS = id1;
  }
 
 -(NSString*)getDescription {
