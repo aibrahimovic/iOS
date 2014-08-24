@@ -10,11 +10,11 @@
 
 @implementation Medicine
 
-- (id)initMedicineId:(int)idM name:(NSString *)name structure:(NSString *)structure uses:(NSString *)uses sideEffects:(NSString *)sideEffects
+- (id)initMedicineId:(int)eid name:(NSString *)name structure:(NSString *)structure uses:(NSString *)uses sideEffects:(NSString *)sideEffects
 {
     self = [super init];
     
-    self.idM = idM;
+    self.eid = eid;
     self.name = name;
     self.structure = structure;
     self.uses = uses;
@@ -25,7 +25,7 @@
 
 -(int)getId
 {
-    return self.idM;
+    return self.eid;
 }
 
 -(NSString*)getName
@@ -47,7 +47,7 @@
 }
 /*-(void)setId:(int)id1
  {
- self.idM= id1;
+ self.id= id1;
  }
  -(void)setName:(NSString *)name1
  {

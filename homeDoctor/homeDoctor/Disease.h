@@ -10,12 +10,12 @@
 
 @interface Disease : NSObject
 
-@property int idD;
+@property int _id;
 @property NSString * name;
 @property NSArray *listSymptoms;
 @property NSArray *listMedicine;
 
--(id)initDiseaseId:(int)idS Name:(NSString*)name lSymptoms:(NSArray*)symptoms lMedicine:(NSArray*)medicine;
+-(id)initDiseaseId:(int)_id Name:(NSString*)name lSymptoms:(NSArray*)symptoms lMedicine:(NSArray*)medicine;
 -(int)getId;
 -(void)setId:(int)id1;
 -(NSString*)getName;

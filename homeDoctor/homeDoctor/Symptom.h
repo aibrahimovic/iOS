@@ -10,10 +10,10 @@
 
 @interface Symptom : NSObject
 
-@property int idS;
+@property int _id;
 @property NSString * description;
 
--(id)initSymptomId:(int)idS Description:(NSString*)desc;
+-(id)initSymptomId:(int)_id Description:(NSString*)desc;
 -(int)getId;
 -(void)setId:(int)id1;
 -(NSString*)getDescription;
